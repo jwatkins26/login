@@ -67,6 +67,7 @@ form input[type="submit"] {
     background-color: #EA5455;
     color: #002B5B;
     cursor: pointer;
+    font-weight: bold;
     margin-bottom: 30px;
     border-radius: 2px;
     line-height: 45px;
@@ -81,6 +82,7 @@ form input[type="submit"]:hover{
 form a {
     color: #EA5455;
     margin-left: 50px;
+    text-decoration: none;
 }
 
 form a:hover {
