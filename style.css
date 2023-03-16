@@ -1,0 +1,43 @@
+/* 
+    #F9F5EB
+    #E4DCCF
+    #EA5455
+    #002B5B
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #E4DCCF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 450px;
+    margin: 130px auto;
+    position: relative;
+    background-color: #F9F5EB;
+   
+   
+}
+
+.container .header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F9F5EB;
+    background-color: #002B5B;
+    padding: 25px 0 30px 25px;
+    border-radius: 10px 10px 0 0;
+}
+
+.container form {
+    position: absolute;
+    background-color: #F9F5EB;
+    width: 100%;
+}
