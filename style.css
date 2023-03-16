@@ -23,21 +23,66 @@ body {
     margin: 130px auto;
     position: relative;
     background-color: #F9F5EB;
-   
+    
    
 }
 
 .container .header {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
-    color: #F9F5EB;
+    color: #EA5455;
     background-color: #002B5B;
     padding: 25px 0 30px 25px;
     border-radius: 10px 10px 0 0;
+    
 }
 
 .container form {
     position: absolute;
     background-color: #F9F5EB;
     width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    box-sizing: border-box;
+    padding: 50px 10px 0 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form input {
+    height: 50px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    border: none;
+
+}
+
+form input[type="password"] {
+    margin-top: 20px;
+}
+
+form input[type="submit"] {
+    margin-top: 30px;
+    width: 130px;
+    background-color: #EA5455;
+    color: #002B5B;
+    cursor: pointer;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    line-height: 45px;
+}
+
+form input[type="submit"]:hover{
+    background-color: #002B5B;
+    color: #EA5455;
+    transition-duration: .3s;
+}
+
+form a {
+    color: #EA5455;
+    margin-left: 50px;
+}
+
+form a:hover {
+    color: #002B5B;
 }
