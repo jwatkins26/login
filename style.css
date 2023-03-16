@@ -29,6 +29,7 @@ body {
 
 .container .header {
     font-size: 1.8rem;
+    text-align: center;
     font-weight: bold;
     color: #EA5455;
     background-color: #002B5B;
@@ -55,6 +56,13 @@ form input {
     font-size: 1.2rem;
     border: none;
 
+}
+
+form i {
+    position:absolute;
+    color: gray;
+    margin: 34px 0 0 -45px;
+    font-size: 1.2rem;
 }
 
 form input[type="password"] {
